@@ -1,6 +1,4 @@
-﻿using System.Net;
-
-namespace Task_7;
+﻿namespace Task_7;
 
 public class FileAnalyzer
 {

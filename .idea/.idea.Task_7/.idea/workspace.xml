@@ -4,27 +4,14 @@
     <projectFile>Task_7/Task_7.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7e91a35d-651e-4058-8d6e-518d02c54e7a" name="Changes" comment="Initial commit">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Task_7/.idea/discord.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Task_7/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Task_7/.idea/indexLayout.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Task_7/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Task_7/FileAnalyzer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Task_7/bin/Debug/net6.0/Task_7.deps.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Task_7/bin/Debug/net6.0/Task_7.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Task_7/bin/Debug/net6.0/Task_7.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Task_7/bin/Debug/net6.0/Task_7.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Task_7/bin/Debug/net6.0/Task_7.runtimeconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Task_7/obj/Debug/net6.0/Task_7.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Task_7/obj/Debug/net6.0/Task_7.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Task_7/obj/Debug/net6.0/Task_7.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Task_7/obj/Debug/net6.0/Task_7.genruntimeconfig.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Task_7/obj/Debug/net6.0/Task_7.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Task_7/obj/Debug/net6.0/apphost.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Task_7/obj/Debug/net6.0/ref/Task_7.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Task_7/obj/Debug/net6.0/refint/Task_7.dll" afterDir="false" />
+    <list default="true" id="7e91a35d-651e-4058-8d6e-518d02c54e7a" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Task_7/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Task_7/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task_7/FileAnalyzer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Task_7/FileAnalyzer.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Task_7/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Task_7/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task_7/bin/Debug/net6.0/Task_7.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Task_7/bin/Debug/net6.0/Task_7.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task_7/bin/Debug/net6.0/Task_7.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Task_7/bin/Debug/net6.0/Task_7.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task_7/obj/Debug/net6.0/Task_7.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Task_7/obj/Debug/net6.0/Task_7.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task_7/obj/Debug/net6.0/Task_7.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Task_7/obj/Debug/net6.0/Task_7.pdb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,6 +19,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/198a6261cebc324728dcc4c178edc5f2894123f711722c80e8557cbfd27651/ThrowHelper.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Task_7/obj/Debug/net6.0/.NETCoreApp,Version=v6.0.AssemblyAttributes.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -82,7 +70,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1652294366021</updated>
-      <workItem from="1652294374908" duration="4137000" />
+      <workItem from="1652294374908" duration="4435000" />
+      <workItem from="1652355631184" duration="9658000" />
+      <workItem from="1652531658287" duration="3904000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1652294691849</created>
@@ -91,14 +81,21 @@
       <option name="project" value="LOCAL" />
       <updated>1652294691849</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added &quot;FileAnalyzer&quot; &quot;FixPunctuation&quot; &quot;CheckForMistakes&quot; functions">
+      <created>1652298667142</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1652298667142</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
-  <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -115,6 +112,39 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="Initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
+    <MESSAGE value="Added &quot;FileAnalyzer&quot; &quot;FixPunctuation&quot; &quot;CheckForMistakes&quot; functions" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added &quot;FileAnalyzer&quot; &quot;FixPunctuation&quot; &quot;CheckForMistakes&quot; functions" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/198a6261cebc324728dcc4c178edc5f2894123f711722c80e8557cbfd27651/ThrowHelper.cs</url>
+          <line>59</line>
+          <properties documentPath="C:\Users\areog\AppData\Roaming\JetBrains\Rider2021.3\resharper-host\SourcesCache\198a6261cebc324728dcc4c178edc5f2894123f711722c80e8557cbfd27651\ThrowHelper.cs" initialLine="59" containingFunctionPresentation="method 'ThrowInvalidTypeWithPointersNotSupported'">
+            <startOffsets>
+              <option value="2343" />
+            </startOffsets>
+            <endOffsets>
+              <option value="2344" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Task_7/Program.cs</url>
+          <line>68</line>
+          <properties documentPath="D:\C#\Task_7\Task_7\Program.cs" initialLine="68" containingFunctionPresentation="local function 'Levenshtein'">
+            <startOffsets>
+              <option value="1666" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1810" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
