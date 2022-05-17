@@ -1,4 +1,6 @@
-﻿namespace Task_7;
+﻿using System.Data;
+
+namespace Task_7;
 
 public class FileAnalyzer
 {
@@ -29,5 +31,22 @@ public class FileAnalyzer
                 Console.Write($"'{word}' ");
             }
         }
+    }
+
+    public int longestSubsequence(string first, string sec)
+    {
+        int[,] table = new int[first.Length + 2, sec.Length + 2];
+        table[0, 0] = 0;
+        for (int i = 0; i < sec.Length + 1; i++)
+        {
+            table[1, i] = 0;
+        }
+        for (int i = 0; i < first.Length + 1; i++)
+        {
+            table[i, 1] = 0;
+        }
+
+
+        return 0;
     }
 }

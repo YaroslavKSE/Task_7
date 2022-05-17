@@ -5,13 +5,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7e91a35d-651e-4058-8d6e-518d02c54e7a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Task_7/bin/Debug/net6.0/Task_7" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task_7/bin/Debug/net6.0/ref/Task_7.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task_7/bin/Debug/net6.0/words_list.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task_7/obj/Debug/net6.0/apphost" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Task_7/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Task_7/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Task_7/FileAnalyzer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Task_7/FileAnalyzer.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Task_7/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Task_7/Program.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Task_7/bin/Debug/net6.0/Task_7.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Task_7/bin/Debug/net6.0/Task_7.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Task_7/bin/Debug/net6.0/Task_7.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Task_7/bin/Debug/net6.0/Task_7.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task_7/obj/Debug/net6.0/Task_7.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/Task_7/obj/Debug/net6.0/Task_7.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task_7/obj/Debug/net6.0/Task_7.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Task_7/obj/Debug/net6.0/Task_7.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task_7/obj/Debug/net6.0/Task_7.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Task_7/obj/Debug/net6.0/Task_7.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task_7/obj/Debug/net6.0/Task_7.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Task_7/obj/Debug/net6.0/Task_7.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task_7/obj/Debug/net6.0/Task_7.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Task_7/obj/Debug/net6.0/Task_7.csproj.FileListAbsolute.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Task_7/obj/Debug/net6.0/Task_7.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Task_7/obj/Debug/net6.0/Task_7.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task_7/obj/Debug/net6.0/Task_7.genruntimeconfig.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Task_7/obj/Debug/net6.0/Task_7.genruntimeconfig.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Task_7/obj/Debug/net6.0/Task_7.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Task_7/obj/Debug/net6.0/Task_7.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task_7/obj/Debug/net6.0/ref/Task_7.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Task_7/obj/Debug/net6.0/ref/Task_7.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task_7/obj/Task_7.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Task_7/obj/Task_7.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task_7/obj/Task_7.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/Task_7/obj/Task_7.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task_7/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Task_7/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task_7/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Task_7/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task_7/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Task_7/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task_7/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Task_7/obj/rider.project.restore.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,7 +36,6 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/198a6261cebc324728dcc4c178edc5f2894123f711722c80e8557cbfd27651/ThrowHelper.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Task_7/obj/Debug/net6.0/.NETCoreApp,Version=v6.0.AssemblyAttributes.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -73,6 +89,7 @@
       <workItem from="1652294374908" duration="4435000" />
       <workItem from="1652355631184" duration="9658000" />
       <workItem from="1652531658287" duration="3904000" />
+      <workItem from="1652747189065" duration="3868000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1652294691849</created>
@@ -121,28 +138,8 @@
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/198a6261cebc324728dcc4c178edc5f2894123f711722c80e8557cbfd27651/ThrowHelper.cs</url>
           <line>59</line>
-          <properties documentPath="C:\Users\areog\AppData\Roaming\JetBrains\Rider2021.3\resharper-host\SourcesCache\198a6261cebc324728dcc4c178edc5f2894123f711722c80e8557cbfd27651\ThrowHelper.cs" initialLine="59" containingFunctionPresentation="method 'ThrowInvalidTypeWithPointersNotSupported'">
-            <startOffsets>
-              <option value="2343" />
-            </startOffsets>
-            <endOffsets>
-              <option value="2344" />
-            </endOffsets>
-          </properties>
+          <properties documentPath="C:\Users\areog\AppData\Roaming\JetBrains\Rider2021.3\resharper-host\SourcesCache\198a6261cebc324728dcc4c178edc5f2894123f711722c80e8557cbfd27651\ThrowHelper.cs" initialLine="59" containingFunctionPresentation="method 'ThrowInvalidTypeWithPointersNotSupported'" />
           <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Task_7/Program.cs</url>
-          <line>68</line>
-          <properties documentPath="D:\C#\Task_7\Task_7\Program.cs" initialLine="68" containingFunctionPresentation="local function 'Levenshtein'">
-            <startOffsets>
-              <option value="1666" />
-            </startOffsets>
-            <endOffsets>
-              <option value="1810" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="8" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

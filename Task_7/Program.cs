@@ -1,9 +1,10 @@
 ﻿using Task_7;
 
-var fileAnalyzer = new FileAnalyzer(@"D:\C#\Task_7\words_list.txt", new List<string>());
+//var fileAnalyzer = new FileAnalyzer(@"D:\C#\Task_7\words_list.txt", new List<string>());
+var fileAnalyzer = new FileAnalyzer("words_list.txt", new List<string>());
 fileAnalyzer.ReadFile();
 string? userInput = Console.ReadLine();
-var words = userInput.Split(" ");
+var words = userInput.Split(' ', '.', ',', '!', '?', ':', ';', '—');
 
 var wordsList = new List<string>();
 foreach (var word in words) { wordsList.Add(word); }
@@ -15,16 +16,6 @@ void FixPunctuation(List<string> data)
 {
     for (var i = 0; i < data.Count; i++)
     {
-        var word = data[i];
-        if (word.Contains(',') || word.Contains('.') || word.Contains('!') || word.Contains('?'))
-        {
-            var wordWithoutPunctuation = word.Substring(0, word.Length - 1);
-            data[i] = wordWithoutPunctuation;
-        }
-    }
-
-    for (var i = 0; i < data.Count; i++)
-    {
         if (data.Contains(""))
         {
             data.Remove("");
@@ -32,9 +23,11 @@ void FixPunctuation(List<string> data)
     }
 }
 
-Console.WriteLine(Levenshtein("crate", "flat"));
+Console.WriteLine();
 
-int Levenshtein(string a, string b)
+
+
+/*int Levenshtein(string a, string b)
 {
     var firstWordLength = a.Length;
     var secondWordLength = b.Length;
@@ -73,4 +66,4 @@ int Levenshtein(string a, string b)
         }
     }
     return matrix[firstWordLength, secondWordLength];
-}
+}*/
