@@ -5,30 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7e91a35d-651e-4058-8d6e-518d02c54e7a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Task_7/bin/Debug/net6.0/Task_7" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Task_7/bin/Debug/net6.0/ref/Task_7.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Task_7/bin/Debug/net6.0/words_list.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Task_7/obj/Debug/net6.0/apphost" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Task_7/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Task_7/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Task_7/FileAnalyzer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Task_7/FileAnalyzer.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Task_7/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Task_7/Program.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Task_7/bin/Debug/net6.0/Task_7.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Task_7/bin/Debug/net6.0/Task_7.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Task_7/bin/Debug/net6.0/Task_7.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Task_7/bin/Debug/net6.0/Task_7.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task_7/obj/Debug/net6.0/Task_7.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/Task_7/obj/Debug/net6.0/Task_7.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task_7/obj/Debug/net6.0/Task_7.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Task_7/obj/Debug/net6.0/Task_7.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task_7/obj/Debug/net6.0/Task_7.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Task_7/obj/Debug/net6.0/Task_7.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task_7/obj/Debug/net6.0/Task_7.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Task_7/obj/Debug/net6.0/Task_7.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task_7/obj/Debug/net6.0/Task_7.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Task_7/obj/Debug/net6.0/Task_7.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task_7/bin/Debug/net6.0/ref/Task_7.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Task_7/bin/Debug/net6.0/ref/Task_7.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Task_7/obj/Debug/net6.0/Task_7.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Task_7/obj/Debug/net6.0/Task_7.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task_7/obj/Debug/net6.0/Task_7.genruntimeconfig.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Task_7/obj/Debug/net6.0/Task_7.genruntimeconfig.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Task_7/obj/Debug/net6.0/Task_7.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Task_7/obj/Debug/net6.0/Task_7.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Task_7/obj/Debug/net6.0/ref/Task_7.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Task_7/obj/Debug/net6.0/ref/Task_7.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task_7/obj/Task_7.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Task_7/obj/Task_7.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task_7/obj/Task_7.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/Task_7/obj/Task_7.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task_7/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Task_7/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task_7/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Task_7/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task_7/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Task_7/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task_7/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Task_7/obj/rider.project.restore.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +22,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Task_7/obj/Debug/net6.0/.NETCoreApp,Version=v6.0.AssemblyAttributes.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/134622bcf8ad016d3faf7776eb0457b76a5798c537458aa82651ab2cee6e1/ThrowHelper.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -89,7 +75,12 @@
       <workItem from="1652294374908" duration="4435000" />
       <workItem from="1652355631184" duration="9658000" />
       <workItem from="1652531658287" duration="3904000" />
-      <workItem from="1652747189065" duration="3868000" />
+      <workItem from="1652747189065" duration="4338000" />
+      <workItem from="1652784130259" duration="1014000" />
+      <workItem from="1652785224284" duration="2522000" />
+      <workItem from="1652788772641" duration="2756000" />
+      <workItem from="1652909888263" duration="2000" />
+      <workItem from="1652912962191" duration="3374000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1652294691849</created>
@@ -105,7 +96,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652298667142</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Split algorithm improved. Longest subsequence function added(NOT YET FINISHED)">
+      <created>1652751628627</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1652751628627</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -130,7 +128,8 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="Initial commit" />
     <MESSAGE value="Added &quot;FileAnalyzer&quot; &quot;FixPunctuation&quot; &quot;CheckForMistakes&quot; functions" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added &quot;FileAnalyzer&quot; &quot;FixPunctuation&quot; &quot;CheckForMistakes&quot; functions" />
+    <MESSAGE value="Split algorithm improved. Longest subsequence function added(NOT YET FINISHED)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Split algorithm improved. Longest subsequence function added(NOT YET FINISHED)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -3,14 +3,26 @@
 //var fileAnalyzer = new FileAnalyzer(@"D:\C#\Task_7\words_list.txt", new List<string>());
 var fileAnalyzer = new FileAnalyzer("words_list.txt", new List<string>());
 fileAnalyzer.ReadFile();
-string? userInput = Console.ReadLine();
-var words = userInput.Split(' ', '.', ',', '!', '?', ':', ';', '—');
+bool close = false;
+while (!close)
+{
+    string? userInput = Console.ReadLine();
+    var words = userInput.Split(' ', '.', ',', '!', '?', ':', ';', '—');
 
-var wordsList = new List<string>();
-foreach (var word in words) { wordsList.Add(word); }
+    var wordsList = new List<string>();
+    foreach (var word in words) { wordsList.Add(word); }
 
-FixPunctuation(wordsList);
-fileAnalyzer.CheckForMistakes(wordsList);
+    FixPunctuation(wordsList);
+    fileAnalyzer.CheckForMistakes(wordsList);
+
+    Console.Write("Do you wanna finish(Yes/No): ");
+    if (Console.ReadLine() == "Yes")
+        close = true;
+}
+
+
+
+
 
 void FixPunctuation(List<string> data)
 {
@@ -23,7 +35,6 @@ void FixPunctuation(List<string> data)
     }
 }
 
-Console.WriteLine();
 
 
 
