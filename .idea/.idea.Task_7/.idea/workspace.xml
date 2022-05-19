@@ -5,18 +5,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7e91a35d-651e-4058-8d6e-518d02c54e7a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Task_7/LongestCommonSubsequence.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Task_7/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Task_7/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Task_7/FileAnalyzer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Task_7/FileAnalyzer.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Task_7/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Task_7/Program.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Task_7/bin/Debug/net6.0/Task_7.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Task_7/bin/Debug/net6.0/Task_7.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Task_7/bin/Debug/net6.0/Task_7.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Task_7/bin/Debug/net6.0/Task_7.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task_7/obj/Debug/net6.0/Task_7.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Task_7/obj/Debug/net6.0/Task_7.csproj.CoreCompileInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Task_7/obj/Debug/net6.0/Task_7.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Task_7/obj/Debug/net6.0/Task_7.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Task_7/obj/Debug/net6.0/Task_7.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Task_7/obj/Debug/net6.0/Task_7.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task_7/obj/Debug/net6.0/ref/Task_7.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Task_7/obj/Debug/net6.0/ref/Task_7.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task_7/obj/Debug/net6.0/refint/Task_7.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Task_7/obj/Debug/net6.0/refint/Task_7.dll" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/198a6261cebc324728dcc4c178edc5f2894123f711722c80e8557cbfd27651/ThrowHelper.cs" root0="SKIP_HIGHLIGHTING" />
@@ -40,6 +52,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="XThreadsFramesViewSplitterKey" value="0.24255319" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager">
@@ -72,7 +85,14 @@
       <updated>1652294366021</updated>
       <workItem from="1652294374908" duration="4435000" />
       <workItem from="1652355631184" duration="9658000" />
-      <workItem from="1652531658287" duration="3904000" />
+      <workItem from="1652531658287" duration="5977000" />
+      <workItem from="1652771748914" duration="9564000" />
+      <workItem from="1652880738708" duration="1595000" />
+      <workItem from="1652899347402" duration="3285000" />
+      <workItem from="1652902962451" duration="399000" />
+      <workItem from="1652904179997" duration="22000" />
+      <workItem from="1652945787978" duration="1058000" />
+      <workItem from="1652959137926" duration="1745000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1652294691849</created>
@@ -88,7 +108,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652298667142</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Added &quot;Levenshtein&quot; distance calculation">
+      <created>1652536226645</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1652536226645</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -113,7 +140,8 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="Initial commit" />
     <MESSAGE value="Added &quot;FileAnalyzer&quot; &quot;FixPunctuation&quot; &quot;CheckForMistakes&quot; functions" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added &quot;FileAnalyzer&quot; &quot;FixPunctuation&quot; &quot;CheckForMistakes&quot; functions" />
+    <MESSAGE value="Added &quot;Levenshtein&quot; distance calculation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added &quot;Levenshtein&quot; distance calculation" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -132,14 +160,14 @@
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Task_7/Program.cs</url>
-          <line>68</line>
-          <properties documentPath="D:\C#\Task_7\Task_7\Program.cs" initialLine="68" containingFunctionPresentation="local function 'Levenshtein'">
+          <url>file://$PROJECT_DIR$/Task_7/FileAnalyzer.cs</url>
+          <line>126</line>
+          <properties documentPath="D:\C#\Task_7\Task_7\FileAnalyzer.cs" initialLine="107" containingFunctionPresentation="method 'FindCommonSub'">
             <startOffsets>
-              <option value="1666" />
+              <option value="3587" />
             </startOffsets>
             <endOffsets>
-              <option value="1810" />
+              <option value="3647" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="8" />
