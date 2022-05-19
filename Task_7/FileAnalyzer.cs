@@ -2,32 +2,20 @@
 
 public class FileAnalyzer
 {
-    private readonly string _path;
     private readonly List<string> _data;
 
-    public FileAnalyzer(string path, List<string> data)
+    public FileAnalyzer( List<string> data)
     {
-        _path = path;
         _data = data;
     }
-
-    public void ReadFile()
-    {
-        foreach (var line in File.ReadAllLines(_path))
-        {
-            _data.Add(line);
-        }
-    }
-
+    
     public List<string> CheckForMistakes(IList<string> wordsList)
     {
         var mistakesInWords = new List<string>();
-        Console.Write("Looks like you have typos in next words: ");
         foreach (var word in wordsList)
         {
             if (!_data.Contains(word))
             {
-                Console.Write($"'{word}' ");
                 mistakesInWords.Add(word);
             }
         }
@@ -57,14 +45,6 @@ public class FileAnalyzer
                 }
             }
         }
-
-        Console.WriteLine("Maybe you meant:");
-        foreach (var word in possibleWords)
-        {
-            Console.Write($"'{word}' ");
-        }
-
-        Console.WriteLine();
 
         return possibleWords;
     }
